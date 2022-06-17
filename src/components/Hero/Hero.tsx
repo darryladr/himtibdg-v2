@@ -4,7 +4,7 @@ import LogoHimti from '@/components/Logo/Logo'
 
 export default function Hero() {
     return (
-        <div className="container relative w-screen h-hero flex overflow-hidden items-center bg-white">
+        <div className="container relative w-screen h-hero flex overflow-hidden items-center">
             <div className="relative left-10 bottom-20 flex flex-row">
                 <div className="mr-8">
                     <LogoHimti width={200} height={200} />

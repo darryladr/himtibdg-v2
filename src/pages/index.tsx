@@ -1,6 +1,7 @@
 import CardSlider from '@/components/Slider/CardSlider'
 import Head from 'next/head'
 import Hero from '@/components/Hero/Hero'
+import AboutUs from '@/components/About/AboutUs'
 
 export default function Home(): React.ReactNode {
     return (
@@ -10,6 +11,7 @@ export default function Home(): React.ReactNode {
             </Head>
             <Hero />
             <CardSlider />
+            <AboutUs />
         </>
     )
 }

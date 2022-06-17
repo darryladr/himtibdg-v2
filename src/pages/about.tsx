@@ -1,5 +1,5 @@
-function About() {
-    return <div>About</div>;
-}
+import AboutUs from '@/components/About/AboutUs'
 
-export default About;
+export default function About(): React.ReactNode {
+    return <AboutUs />
+}

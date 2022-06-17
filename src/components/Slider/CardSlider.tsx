@@ -49,12 +49,13 @@ export default function CardSlider() {
                     type: 'loop',
                     perPage: 3,
                     perMove: 1,
+                    gap: '1rem',
                     width: '75%',
                 }}
                 hasTrack={false}
                 className="relative flex items-center"
             >
-                <div className="relative flex justify-center w-full">
+                <div className="relative flex items-center justify-center w-full">
                     <SplideTrack className="relative p-4">
                         {Cards.map((item) => (
                             <SplideSlide
@@ -71,10 +72,10 @@ export default function CardSlider() {
                         ))}
                     </SplideTrack>
 
-                    <div className="splide__arrows w-screen gap-20 flex absolute justify-between">
+                    <div className="splide__arrows w-full flex absolute justify-between">
                         <button
                             type="button"
-                            className="splide__arrow splide__arrow--prev top-0 right-4 h-full cursor-pointer group focus:outline-none"
+                            className="splide__arrow splide__arrow--prev z-30 relative right-14 h-full cursor-pointer group focus:outline-none"
                         >
                             <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-black/30 group-hover:bg-black/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
                                 <svg
@@ -95,7 +96,7 @@ export default function CardSlider() {
                         </button>
                         <button
                             type="button"
-                            className="splide__arrow splide__arrow--next z-30 h-full cursor-pointer group focus:outline-none"
+                            className="splide__arrow splide__arrow--next z-30 relative left-14 h-full cursor-pointer group focus:outline-none"
                         >
                             <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-black/30 group-hover:bg-black/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
                                 <svg

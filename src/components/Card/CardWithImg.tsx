@@ -17,7 +17,7 @@ function CardWithImg({
     desc,
 }: ICardProps) {
     return (
-        <div className="flex flex-col w-80 px-6 py-4 bg-white rounded-lg border border-himti-100 shadow-md">
+        <div className="flex flex-col max-w-sm md:max-w-md px-6 py-4 bg-white rounded-lg border border-himti-100 shadow-md">
             <a href="#" className="w-auto">
                 <Image
                     className="w-auto rounded-t-lg"

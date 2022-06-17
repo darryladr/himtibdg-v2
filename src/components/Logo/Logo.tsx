@@ -1,9 +1,12 @@
 interface Props {
-    width: number
-    height: number
+    width?: string | number
+    height?: string | number
 }
 
-function LogoHimti({ width, height }: Props) {
+export default function LogoHimti({
+    width,
+    height,
+}: Props): React.ReactElement {
     return (
         <svg
             width={width}
@@ -51,5 +54,3 @@ function LogoHimti({ width, height }: Props) {
         </svg>
     )
 }
-
-export default LogoHimti
