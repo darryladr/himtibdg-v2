@@ -14,7 +14,7 @@ const member: IMember = {
 
 export default function MemberCount(): React.ReactElement {
     return (
-        <div className="container relative flex flex-col items-center mb-8">
+        <div className="container relative flex flex-col items-center mb-20">
             <div className="title-wrapper flex flex-col gap-2 items-center mb-8">
                 <h1 className="text-5xl font-bold text-himti-500">
                     We are still counting!

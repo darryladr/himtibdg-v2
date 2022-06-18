@@ -2,7 +2,7 @@ import { HimtiBlue } from '@/components/Logo/Logo'
 
 export default function AboutUs(): React.ReactElement {
     return (
-        <div className="container relative flex flex-row gap-12 p-14 items-start justify-center">
+        <div className="container relative flex flex-row gap-12 mb-20 items-start justify-center">
             <HimtiBlue width={200} />
             <div className="content-wrapper flex flex-col gap-1">
                 <h1 className="font-bold text-5xl text-himti-500">About Us</h1>

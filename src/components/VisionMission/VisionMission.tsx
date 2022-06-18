@@ -4,8 +4,8 @@ import mission from '@/assets/mission.svg'
 
 export default function VisionMission(): React.ReactElement {
     return (
-        <div className="container relative flex flex-col items-center mb-24">
-            <h1 className="text-5xl font-bold text-himti-500 mb-8">
+        <div className="container relative flex flex-col items-center mb-20">
+            <h1 className="text-5xl font-bold text-himti-500 mb-10">
                 Our Vision and Mission
             </h1>
             <div className="mission-wrapper relative flex flex-col items-center mb-8">
@@ -29,7 +29,7 @@ export default function VisionMission(): React.ReactElement {
                 <h1 className="text-4xl font-bold text-himti-500 mb-4">
                     Vision
                 </h1>
-                <div className="card-wrapper flex flex-grow gap-4">
+                <div className="card-wrapper flex gap-4">
                     <CardVision>
                         Menjadi himpunan yang dapat menampung dan menjalankan
                         aspirasi mahasiswa jurusan/program studi Teknik

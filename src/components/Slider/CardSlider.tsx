@@ -43,7 +43,7 @@ const Cards: Array<ICards> = [
 
 export default function CardSlider(): React.ReactElement {
     return (
-        <div className="relative flex justify-center w-screen">
+        <div className="relative flex justify-center w-screen mb-20">
             <Splide
                 options={{
                     type: 'loop',
