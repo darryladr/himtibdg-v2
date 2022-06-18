@@ -14,34 +14,34 @@ const Cards: Array<ICards> = [
     {
         _id: 1,
         src: card1,
-        imgHeight: 200,
+        imgWidth: 250,
         title: 'Responsi UTS 2022',
         desc: 'Belajar bersama himti melalui Responsi mempersiapkan UTS',
     },
     {
         _id: 2,
         src: card1,
-        imgHeight: 200,
+        imgWidth: 250,
         title: 'Responsi UTS 2023',
         desc: 'Belajar bersama himti melalui Responsi mempersiapkan UTS',
     },
     {
         _id: 3,
         src: card1,
-        imgHeight: 200,
+        imgWidth: 250,
         title: 'Responsi UTS 2024',
         desc: 'Belajar bersama himti melalui Responsi mempersiapkan UTS',
     },
     {
         _id: 4,
         src: card1,
-        imgHeight: 200,
+        imgWidth: 250,
         title: 'Responsi UTS 2025',
         desc: 'Belajar bersama himti melalui Responsi mempersiapkan UTS',
     },
 ]
 
-export default function CardSlider() {
+export default function CardSlider(): React.ReactElement {
     return (
         <div className="relative flex justify-center w-screen">
             <Splide
@@ -49,8 +49,12 @@ export default function CardSlider() {
                     type: 'loop',
                     perPage: 3,
                     perMove: 1,
-                    gap: '1rem',
-                    width: '75%',
+                    gap: '1.5rem',
+                    width: '66%',
+                    padding: {
+                        left: '0.5rem',
+                        right: '0.5rem',
+                    },
                 }}
                 hasTrack={false}
                 className="relative flex items-center"
@@ -64,7 +68,7 @@ export default function CardSlider() {
                             >
                                 <CardWithImg
                                     src={item.src}
-                                    imgHeight={item.imgHeight}
+                                    imgWidth={item.imgWidth}
                                     title={item.title}
                                     desc={item.desc}
                                 />

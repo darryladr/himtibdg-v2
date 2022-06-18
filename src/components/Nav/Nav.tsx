@@ -1,5 +1,5 @@
+import { HimtiBlue } from '@/components/Logo/Logo'
 import Link from 'next/link'
-import LogoHimti from '@/components/Logo/Logo'
 import { useRouter } from 'next/router'
 
 interface INavItems {
@@ -28,7 +28,7 @@ function Nav() {
             <div className="h-full container flex flex-wrap justify-between items-center mx-auto">
                 <Link href="/">
                     <span>
-                        <LogoHimti width={64} height={64} />
+                        <HimtiBlue width={64} height={64} />
                     </span>
                 </Link>
                 <button

@@ -16,7 +16,7 @@
         },
         "ecmaVersion": "latest",
         "sourceType": "module",
-        "project": ["./tsconfig.json"]
+        "project": ["./tsconfig.json", "./next.config.js"]
     },
     "plugins": ["react", "@typescript-eslint"],
     "rules": {

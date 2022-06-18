@@ -1,13 +1,13 @@
 import { Button } from 'flowbite-react'
+import { HimtiBlue } from '@/components/Logo/Logo'
 import Link from 'next/link'
-import LogoHimti from '@/components/Logo/Logo'
 
 export default function Hero() {
     return (
-        <div className="container relative w-screen h-hero flex overflow-hidden items-center">
+        <div className="container relative w-screen h-hero flex overflow-hidden items-center mb-10">
             <div className="relative left-10 bottom-20 flex flex-row">
                 <div className="mr-8">
-                    <LogoHimti width={200} height={200} />
+                    <HimtiBlue width={200} height={200} />
                 </div>
                 <div className="wrapper p-4 w-full flex items-start flex-col">
                     <div className="desc font-bold mb-4">
