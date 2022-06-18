@@ -1,4 +1,4 @@
-import { Button } from 'flowbite-react'
+import Button from '@/components/Button/Button'
 import { HimtiBlue } from '@/components/Logo/Logo'
 import Link from 'next/link'
 
@@ -21,10 +21,7 @@ export default function Hero() {
                     </div>
                     <div className="cta">
                         <Link href="/about">
-                            <Button
-                                color="alternative"
-                                className="bg-himti-500 hover:bg-himti-700 border-transparent"
-                            >
+                            <Button>
                                 <span className="text-white font-medium">
                                     About Us
                                 </span>
